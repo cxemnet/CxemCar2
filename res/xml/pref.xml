@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+            
+	<PreferenceCategory
+ 		android:key="pref_General"
+ 		android:title="General settings"
+ 		android:summary="General settings">
+	
+		<EditTextPreference
+			 android:key="pref_MAC_address"
+			 android:title="MAC address"
+			 android:summary="MAC-address of Bluetooth module"
+			 android:defaultValue="@+string/default_MAC" />
+		
+		<EditTextPreference
+			 android:key="pref_commandLeft"
+			 android:title="Symbol for left motor"
+			 android:summary="Command symbol for left motor"
+			 android:defaultValue="@+string/default_commandLeft" />
+			
+		<EditTextPreference
+			 android:key="pref_commandRight"
+			 android:title="Symbol for right motor"
+			 android:summary="Command symbol for right motor"
+			 android:defaultValue="@+string/default_commandRight" />
+		
+		<EditTextPreference
+			 android:key="pref_commandHorn"
+			 android:title="Optional Symbol"
+			 android:summary="Symbol for optional command (for example horn)"
+			 android:defaultValue="@+string/default_commandHorn" />
+		
+		<CheckBoxPreference
+			android:key="pref_Debug"
+			android:title="Debug info"
+			android:summary="Show debug information"
+			android:defaultValue="false" />
+		
+	</PreferenceCategory>
+	
+	
+	<PreferenceCategory
+ 		android:key="pref_Buttons"
+ 		android:title="Buttons control settings"
+ 		android:summary="Buttons control settings">
+		 
+		<EditTextPreference
+			 android:key="pref_pwmBtnMotorLeft"
+			 android:title="Left PWM value"
+			 android:summary="Left PWM constant value"
+			 android:defaultValue="@+string/default_pwmBtnMotorLeft" />
+		
+		<EditTextPreference
+			 android:key="pref_pwmBtnMotorRight"
+			 android:title="Right PWM value"
+			 android:summary="Right PWM constant value"
+			 android:defaultValue="@+string/default_pwmBtnMotorRight" />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+ 		android:key="pref_Camera"
+ 		android:title="Camera settings"
+ 		android:summary="Camera settings">
+		 
+		<EditTextPreference
+			 android:key="pref_camURL"
+			 android:title="Camera View URL"
+			 android:summary="Camera View URL-address"
+			 android:defaultValue="@+string/default_camURL" />
+		
+		<EditTextPreference
+			 android:key="pref_camControlURL"
+			 android:title="Camera Control URL"
+			 android:summary="Camera Control pan/tilt URL-address"
+			 android:defaultValue="@+string/default_camControlURL" />
+				
+	</PreferenceCategory>
+
+</PreferenceScreen>

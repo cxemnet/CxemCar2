@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+            
+	<PreferenceCategory
+ 		android:key="pref_General"
+ 		android:title="Общие настройки"
+ 		android:summary="Общие настройки">
+	
+		<EditTextPreference
+			 android:key="pref_MAC_address"
+			 android:title="MAC адрес"
+			 android:summary="MAC-адрес Bluetooth устройства"
+			 android:defaultValue="@+string/default_MAC" />
+		
+		<EditTextPreference
+			 android:key="pref_commandLeft"
+			 android:title="Команда для левого двигателя"
+			 android:summary="Символ команды для левого двигателя"
+			 android:defaultValue="@+string/default_commandLeft" />
+			
+		<EditTextPreference
+			 android:key="pref_commandRight"
+			 android:title="Команда для правого двигателя"
+			 android:summary="Символ команды для правого двигателя"
+			 android:defaultValue="@+string/default_commandRight" />
+		
+		<EditTextPreference
+			 android:key="pref_commandHorn"
+			 android:title="Дополнительная команда"
+			 android:summary="Символ дополнительной команды (к примеру звуковой сигнал)"
+			 android:defaultValue="@+string/default_commandHorn" />
+		
+		<CheckBoxPreference
+			android:key="pref_Debug"
+			android:title="Отладочная информация"
+			android:summary="Отображение отладочной информации"
+			android:defaultValue="false" />
+		
+	</PreferenceCategory>
+	
+	
+	<PreferenceCategory
+ 		android:key="pref_Buttons"
+ 		android:title="Параметры при управлении от экранных кнопок"
+ 		android:summary="Параметры при управлении от экранных кнопок">
+		 
+		<EditTextPreference
+			 android:key="pref_pwmBtnMotorLeft"
+			 android:title="Значение ШИМ при кнопочном управлении (левый)"
+			 android:summary="Постоянное значение ШИМ при кнопочном управлении для левого двигателя"
+			 android:defaultValue="@+string/default_pwmBtnMotorLeft" />
+		
+		<EditTextPreference
+			 android:key="pref_pwmBtnMotorRight"
+			 android:title="Значение ШИМ при кнопочном управлении (правый)"
+			 android:summary="Постоянное значение ШИМ при кнопочном управлении для правого двигателя"
+			 android:defaultValue="@+string/default_pwmBtnMotorRight" />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+ 		android:key="pref_Camera"
+ 		android:title="Настройки камеры"
+ 		android:summary="Настройки камеры">
+		 
+		<EditTextPreference
+			 android:key="pref_camURL"
+			 android:title="URL видеопотока"
+			 android:summary="URL-адрес камеры для просмотра видеопотока"
+			 android:defaultValue="@+string/default_camURL" />
+		
+		<EditTextPreference
+			 android:key="pref_camControlURL"
+			 android:title="URL управления"
+			 android:summary="URL-адрес камеры для управления pan/tilt"
+			 android:defaultValue="@+string/default_camControlURL" />
+				
+	</PreferenceCategory>
+
+</PreferenceScreen>

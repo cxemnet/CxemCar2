@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">CxemCAR2</string>
+    <string name="app_name_version">Cxem CAR 2.0</string>
+    <string name="menu_settings">Settings</string>   
+   
+    <string name="str_btn_moveForward">Forward</string>
+    <string name="str_btn_moveBackward">Backward</string>
+    <string name="str_btn_moveLeft">Left</string>  
+    <string name="str_btn_moveRight">Right</string>
+    
+    <string name="str_btn_moveCamUp">Up</string>
+    <string name="str_btn_moveCamDown">Down</string>
+    <string name="str_btn_moveCamLeft">Left</string>  
+    <string name="str_btn_moveCamRight">Right</string>
+    
+    <string name="title_activity_main">Cxem CAR2</string>
+    <string name="title_activity_buttons">Cxem CAR2 - Button control</string>
+    <string name="title_activity_mcu">Cxem CAR2 - MCU settings</string>
+    <string name="title_activity_about">Cxem CAR2 - About</string>
+         
+    <string name="btn_button">Button control</string>
+    <string name="btn_mcu">MCU settings</string>
+    <string name="btn_about">About</string>
+    
+    <string name="text_TankControl">Tank Control</string>
+    <string name="text_CamControl">Cam Control</string>
+    
+    <string name="text_about">The latest versions of the software and source code you can download from the <![CDATA[<a href="http://english.cxem.net">official project page</a>]]></string>
+    <string name="mcu_textInfo1">Settings for the MCU. The parameters are transferred and stored in the MCU EEPROM memory</string>
+	<string name="mcu_textStop">Stop when the connection is lost:</string>
+	<string name="mcu_cBox_AutoOFF">On</string>
+	<string name="mcu_after_sec">After (second):</string>
+	<string name="mcu_flash_Read">Read data</string>
+	<string name="mcu_flash_Write">Write data</string>
+	
+	<string name="mcu_error_range">Enter the correct value (0.01 &#8211; 99.9)</string>
+	<string name="err_data_entry">Data entry error</string>
+	<string name="flash_success">Data successfully written in Flash</string>
+	<string name="error_get_data">Data receive error</string>
+	
+	<string name="default_MAC">00:15:FF:F2:19:4C</string>
+    <string name="default_commandLeft">L</string>
+    <string name="default_commandRight">R</string>
+    <string name="default_commandHorn">H</string>
+    <string name="default_pwmBtnMotorLeft">255</string>
+    <string name="default_pwmBtnMotorRight">255</string>
+    <string name="default_camURL"><![CDATA[http://192.168.1.10:8081/videostream.cgi?user=cxemcar&pwd=cxemcar&resolution=8]]></string>
+	<string name="default_camControlURL"><![CDATA[http://192.168.1.10:8081/decoder_control.cgi?user=cxemcar&pwd=cxemcar&command=]]></string>
+    
+</resources>

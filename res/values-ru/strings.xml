@@ -1,0 +1,38 @@
+<resources>
+    <string name="menu_settings">Настройки</string> 
+    
+    <string name="str_btn_moveForward">Вперед</string>
+    <string name="str_btn_moveBackward">Назад</string>
+    <string name="str_btn_moveLeft">Влево</string>  
+    <string name="str_btn_moveRight">Вправо</string>
+    
+    <string name="str_btn_moveCamUp">Вверх</string>
+    <string name="str_btn_moveCamDown">Вниз</string>
+    <string name="str_btn_moveCamLeft">Влево</string>  
+    <string name="str_btn_moveCamRight">Вправо</string>
+    
+    <string name="title_activity_buttons">Cxem CAR2 - Управление кнопками</string>
+    <string name="title_activity_mcu">Cxem CAR2 - Настройки МК</string>
+    <string name="title_activity_about">Cxem CAR2 - О приложении</string>        
+       
+    <string name="btn_button">Управление кнопками</string>
+    <string name="btn_mcu">Настройки МК</string>
+    <string name="btn_about">О приложении</string>
+    
+    <string name="text_TankControl">Управление шасси</string>
+    <string name="text_CamControl">Управление камерой</string>
+    
+    <string name="text_about">Последние версии ПО, а также исходные коды вы можете скачать <![CDATA[<a href="http://cxem.net/uprav/uprav57.php">на официальной странице проекта</a>]]></string>
+	<string name="mcu_textInfo1">Данные настройки предназначены для микроконтроллера. Параметры передаются и сохраняются в EEPROM памяти МК</string>
+	<string name="mcu_textStop">Остановка при потере связи:</string>
+	<string name="mcu_cBox_AutoOFF">Вкл.</string>
+	<string name="mcu_after_sec">Через (секунд):</string>
+	<string name="mcu_flash_Read">Считать данные</string>
+	<string name="mcu_flash_Write">Записать данные</string>
+	
+	<string name="mcu_error_range">Введите корректное значение (0.01 &#8211; 99.9)</string>
+	<string name="err_data_entry">Ошибка ввода данных</string>
+	<string name="flash_success">Данные в Flash успешно записаны</string>
+	<string name="error_get_data">Ошибка получения данных</string>
+	
+</resources>
